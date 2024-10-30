@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109c0d16-3459-4585-bcb3-395ec99a8e19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/illustrations/book_canvas.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(library)/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(library)/_components/layout/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(library)/_components/layout/_styled/SC_layout_container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(library)/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(library)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(library)/library/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/_components/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/_components/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(website)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(website)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/providers/UIProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/providers/UILibraryProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,26 +36,36 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "elkira01"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;elkira01&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/elkira01/quizz.git",
-    "accountId": "8df7c22f-e8af-49a1-bb1e-8dd66b06c925"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/elkira01/quizz.git&quot;,
+    &quot;accountId&quot;: &quot;8df7c22f-e8af-49a1-bb1e-8dd66b06c925&quot;
   }
-}]]></component>
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2nvyfzdw5EzfELRvqGr8iBlvxxF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,18 +74,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/elkira01/workspace/PROJECTS/archives-uy",
+    "last_opened_file_path": "C:/workspace/PROJECTS/quizz/public/illustrations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "C:\\workspace\\PROJECTS\\quizz\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\workspace\\PROJECTS\\quizz\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\PROJECTS\quizz\public\illustrations" />
+      <recent name="C:\workspace\PROJECTS\quizz\src\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\PROJECTS\quizz\src\app\(library)\library" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -62,7 +107,8 @@
       <scripts>
         <script value="dev" />
       </scripts>
-      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v20.11.0/bin/node" />
+      <node-interpreter value="$PROJECT_DIR$/../../../Program Files/nodejs/node" />
+      <package-manager value="yarn" />
       <envs />
       <method v="2" />
     </configuration>
@@ -84,10 +130,20 @@
       <option name="presentableId" value="Default" />
       <updated>1729867952613</updated>
       <workItem from="1729867955191" duration="3666000" />
+      <workItem from="1730088284045" duration="26000" />
+      <workItem from="1730088391767" duration="1273000" />
+      <workItem from="1730089896861" duration="70000" />
+      <workItem from="1730100844695" duration="13000" />
+      <workItem from="1730260059870" duration="5000" />
+      <workItem from="1730260475177" duration="4690000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

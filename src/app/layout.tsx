@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import '../styles/globals.css';
-// import { UILibraryProvider } from '@/components/providers/UILibraryProvider';
+// import { UIContextProvider } from '@/components/providers/UIContextProvider';
 
 const geistSans = localFont({
   src: '../styles/assets/fonts/GeistVF.woff',

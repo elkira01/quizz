@@ -1,5 +1,6 @@
 import { Button } from '@nextui-org/button';
 import Link from 'next/link';
+import { BtnTheme } from '@/landing/BtnTheme';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <Button>
           <Link href='/library'>Library</Link>
         </Button>
+        <BtnTheme />
       </main>
     </div>
   );

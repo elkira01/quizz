@@ -2,6 +2,6 @@
 
 import { NextUIProvider } from '@nextui-org/react';
 
-export function UILibraryProvider({ children }: { children: React.ReactNode }) {
+export function NextUIContextProvider({ children }: { children: React.ReactNode }) {
   return <NextUIProvider>{children}</NextUIProvider>;
 }

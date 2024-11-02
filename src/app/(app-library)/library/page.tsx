@@ -5,5 +5,5 @@ export default async function Home() {
 
   console.log(result);
 
-  return <div></div>;
+  return <div>OKAY</div>;
 }

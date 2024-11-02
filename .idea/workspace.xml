@@ -4,29 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109c0d16-3459-4585-bcb3-395ec99a8e19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/illustrations/book_canvas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(library)/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(library)/_components/layout/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(library)/_components/layout/_styled/SC_layout_container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(library)/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(library)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(library)/library/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/_components/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(quiz)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/_components/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(task-manager)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="109c0d16-3459-4585-bcb3-395ec99a8e19" name="Changes" comment="ts-config aliases">
+      <change afterPath="$PROJECT_DIR$/src/lib/api/adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/api/axios/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/api/fetch/application.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/api/fetch/class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/api/fetch/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/api/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(website)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(website)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/_components/layout/_styled/SC_layout_container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app-library)/_components/layout/_styled/SC_layout_container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/about/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app-library)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/library/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app-library)/library/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app-quiz)/about/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app-task-manager)/about/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_api/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_api/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/providers/UIProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/providers/UILibraryProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_api/books.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -72,35 +70,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/workspace/PROJECTS/quizz/public/illustrations",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "C:\\workspace\\PROJECTS\\quizz\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\workspace\\PROJECTS\\quizz\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/PROJECTS/quizz/src/app/(app-library)/_components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\workspace\\PROJECTS\\quizz\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\workspace\\PROJECTS\\quizz\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\PROJECTS\quizz\src\app\(app-library)\_components" />
       <recent name="C:\workspace\PROJECTS\quizz\public\illustrations" />
       <recent name="C:\workspace\PROJECTS\quizz\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\PROJECTS\quizz\src\lib\api\axios" />
+      <recent name="C:\workspace\PROJECTS\quizz\src\styles" />
       <recent name="C:\workspace\PROJECTS\quizz\src\app\(library)\library" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -112,6 +123,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -136,11 +151,38 @@
       <workItem from="1730100844695" duration="13000" />
       <workItem from="1730260059870" duration="5000" />
       <workItem from="1730260475177" duration="4690000" />
+      <workItem from="1730265217429" duration="2832000" />
+      <workItem from="1730273110684" duration="3471000" />
+      <workItem from="1730313717047" duration="597000" />
+      <workItem from="1730461921310" duration="8356000" />
+      <workItem from="1730472098656" duration="1713000" />
+      <workItem from="1730530453104" duration="3536000" />
     </task>
+    <task id="LOCAL-00001" summary="ts-config aliases">
+      <option name="closed" value="true" />
+      <created>1730266040285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730266040285</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ts-config aliases">
+      <option name="closed" value="true" />
+      <created>1730266093853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730266093853</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ts-config aliases" />
+    <option name="LAST_COMMIT_MESSAGE" value="ts-config aliases" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

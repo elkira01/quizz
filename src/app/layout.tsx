@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import '../styles/globals.css';
-import { UILibraryProvider } from '@/components/providers/UILibraryProvider';
+// import { UILibraryProvider } from '@/components/providers/UILibraryProvider';
 
 const geistSans = localFont({
   src: '../styles/assets/fonts/GeistVF.woff',
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <UILibraryProvider>{children}</UILibraryProvider>
+        <main>{children}</main>
       </body>
     </html>
   );

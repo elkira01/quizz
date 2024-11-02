@@ -1,4 +1,4 @@
-import { Container } from '@/library/_components/layout/Container';
+import {Container} from "@/library/_components/layout/Container";
 
 export default function WebsiteLayout({
   children,

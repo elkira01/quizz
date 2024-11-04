@@ -6,5 +6,5 @@ export const darkTheme = {
   secondaryColor: '#666',
   color: '#fff',
   boxShadow: '0px 0px 5px rgba(0, 0, 0, 0.2)',
-  background: '#000',
+  background: '#131313',
 };

@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109c0d16-3459-4585-bcb3-395ec99a8e19" name="Changes" comment="ts-config aliases">
-      <change afterPath="$PROJECT_DIR$/src/lib/api/adapter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/axios/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/fetch/application.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/fetch/class.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/fetch/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/_components/layout/_styled/SC_layout_container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app-library)/_components/layout/_styled/SC_layout_container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app-library)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app-library)/library/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app-library)/library/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app-quiz)/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app-task-manager)/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_api/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/api/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_api/books.ts" afterDir="false" />
+    <list default="true" id="109c0d16-3459-4585-bcb3-395ec99a8e19" name="Changes" comment="domain">
+      <change beforePath="$PROJECT_DIR$/src/types/DTO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/DTO.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,9 +78,11 @@
       <recent name="C:\workspace\PROJECTS\quizz\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\PROJECTS\quizz\src\components\shared" />
+      <recent name="C:\workspace\PROJECTS\quizz\src\components\shared\entity" />
+      <recent name="C:\workspace\PROJECTS\quizz\src\lib\utils\helpers" />
+      <recent name="C:\workspace\PROJECTS\quizz\src\types\book\models" />
       <recent name="C:\workspace\PROJECTS\quizz\src\lib\api\axios" />
-      <recent name="C:\workspace\PROJECTS\quizz\src\styles" />
-      <recent name="C:\workspace\PROJECTS\quizz\src\app\(library)\library" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -156,7 +140,7 @@
       <workItem from="1730313717047" duration="597000" />
       <workItem from="1730461921310" duration="8356000" />
       <workItem from="1730472098656" duration="1713000" />
-      <workItem from="1730530453104" duration="3536000" />
+      <workItem from="1730530453104" duration="33345000" />
     </task>
     <task id="LOCAL-00001" summary="ts-config aliases">
       <option name="closed" value="true" />
@@ -174,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730266093853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="api inetrface setup">
+      <option name="closed" value="true" />
+      <created>1730537581828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730537581829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="domain">
+      <option name="closed" value="true" />
+      <created>1730577361469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730577361469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +182,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ts-config aliases" />
-    <option name="LAST_COMMIT_MESSAGE" value="ts-config aliases" />
+    <MESSAGE value="api inetrface setup" />
+    <MESSAGE value="domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="domain" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/lib/api/fetch/FetchApi.ts</url>
+          <line>30</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

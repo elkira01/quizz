@@ -1,4 +1,4 @@
 export interface DTO<T> {
-  input: T | any;
-  format(isForm?: boolean): T | any;
+  input: T;
+  format(isForm?: boolean): T;
 }

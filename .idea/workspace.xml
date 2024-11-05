@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109c0d16-3459-4585-bcb3-395ec99a8e19" name="Changes" comment="domain">
-      <change beforePath="$PROJECT_DIR$/src/types/DTO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/DTO.ts" afterDir="false" />
+    <list default="true" id="109c0d16-3459-4585-bcb3-395ec99a8e19" name="Changes" comment="theme settings">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(website)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(website)/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/PROJECTS/quizz/src/app/(app-library)/_components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/PROJECTS/quizz/src/styles/theme&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,16 +74,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\PROJECTS\quizz\src\styles\theme" />
+      <recent name="C:\workspace\PROJECTS\quizz" />
       <recent name="C:\workspace\PROJECTS\quizz\src\app\(app-library)\_components" />
       <recent name="C:\workspace\PROJECTS\quizz\public\illustrations" />
       <recent name="C:\workspace\PROJECTS\quizz\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\PROJECTS\quizz\src\styles\theme\themes" />
       <recent name="C:\workspace\PROJECTS\quizz\src\components\shared" />
       <recent name="C:\workspace\PROJECTS\quizz\src\components\shared\entity" />
       <recent name="C:\workspace\PROJECTS\quizz\src\lib\utils\helpers" />
       <recent name="C:\workspace\PROJECTS\quizz\src\types\book\models" />
-      <recent name="C:\workspace\PROJECTS\quizz\src\lib\api\axios" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -141,6 +144,9 @@
       <workItem from="1730461921310" duration="8356000" />
       <workItem from="1730472098656" duration="1713000" />
       <workItem from="1730530453104" duration="33345000" />
+      <workItem from="1730738217520" duration="12581000" />
+      <workItem from="1730779743110" duration="38000" />
+      <workItem from="1730805628960" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="ts-config aliases">
       <option name="closed" value="true" />
@@ -174,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730577361469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="theme settings">
+      <option name="closed" value="true" />
+      <created>1730759154891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730759154891</updated>
+    </task>
+    <task id="LOCAL-00006" summary="theme settings">
+      <option name="closed" value="true" />
+      <created>1730759377108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730759377108</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +206,8 @@
     <MESSAGE value="ts-config aliases" />
     <MESSAGE value="api inetrface setup" />
     <MESSAGE value="domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="domain" />
+    <MESSAGE value="theme settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="theme settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -192,7 +215,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/lib/api/fetch/FetchApi.ts</url>
           <line>30</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -1,16 +1,20 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from '@/styles/theme';
-import useAppTheme from '@/hooks/theme/use-app-theme';
 import { GlobalStyle } from '@/styles/theme/GlobalStyle';
+import { useAppTheme } from '@/hooks';
 
 export default function AppThemeProvider({ children }: { children: React.ReactNode }) {
-  const theme = useAppTheme();
+  const { theme, initTheme } = useAppTheme();
+
+  useEffect(() => {
+    initTheme();
+  }, []);
 
   return (
-    <ThemeProvider theme={theme.currentTheme !== 'light' ? darkTheme : lightTheme}>
+    <ThemeProvider theme={theme !== 'light' ? darkTheme : lightTheme}>
       <GlobalStyle />
       {children}
     </ThemeProvider>

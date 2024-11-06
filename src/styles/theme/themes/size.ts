@@ -6,5 +6,5 @@ export const themeSizes = {
   extraLargePadding: '60px',
 
   // margin - widths
-  maxScreenWidth: '1500px',
+  maxContainerWidth: '1500px',
 };

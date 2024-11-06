@@ -2,7 +2,7 @@ import { themeSizes } from './size';
 
 export const darkTheme = {
   ...themeSizes,
-  primaryColor: '#118afc',
+  primaryColor: 'rgba(27, 119, 100, 0.95)',
   secondaryColor: '#666',
   dangerColor: '#f31818',
   labelColor: '#ffffff',

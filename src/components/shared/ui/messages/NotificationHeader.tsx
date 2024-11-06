@@ -1,14 +1,12 @@
 'use client';
 
 import styled from 'styled-components';
-import { useEffect } from 'react';
-import { createRoot } from 'react-dom/client';
-import { TextReveal } from '@/components/base/Reveal/TextReveal';
+import React from 'react';
 
 const SC_Component = styled.div`
   height: 42px;
 
-  p {
+  div {
     height: 42px;
     max-width: ${({ theme }) => theme.maxContainerWidth};
     margin-inline: auto;
@@ -17,32 +15,26 @@ const SC_Component = styled.div`
     font-size: 1rem;
     color: white;
     text-transform: uppercase;
-    padding-block: 10px;
+    padding-block: 9px;
   }
 `;
 
-export function NotificationHeader({ messages, themeColor }: { messages: any[]; themeColor: any }) {
-  const renderContent = (index: number) => {
-    const content = createRoot(document.querySelector('.content') as any);
-    content.render(<TextReveal message={messages[index]} />);
-  };
-  const updateContent = () => {
-    let index = 0;
+export function NotificationHeader({ children, themeColor }: { children: any[]; themeColor: any }) {
+  const [index, setIndex] = React.useState<number>(0);
 
-    setInterval(() => {
-      index = (index + 1) % messages.length;
-      renderContent(index);
+  React.useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIndex((index) => (index + 1) % children.length);
     }, 5000);
-  };
 
-  useEffect(() => {
-    renderContent(0);
-    updateContent();
+    return () => {
+      clearInterval(intervalId);
+    };
   }, []);
 
   return (
     <SC_Component style={{ background: themeColor }}>
-      <p className='content'></p>
+      <div className='content'>{children[index]}</div>
     </SC_Component>
   );
 }

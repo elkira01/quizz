@@ -2,7 +2,13 @@
 
 import styled from 'styled-components';
 
-const SC_Reveal = styled.div<{ type: 'fade' | 'slide-x' | 'slide-y' }>`
+const SC_Reveal = styled.p<{ type: 'fade' | 'slide-x' | 'slide-y' }>`
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
   @keyframes fade {
     0% {
       opacity: 0;
@@ -43,9 +49,9 @@ const SC_Reveal = styled.div<{ type: 'fade' | 'slide-x' | 'slide-y' }>`
 `;
 
 export const TextReveal = ({
-  message,
+  content,
   type,
 }: {
-  message: any;
+  content: any;
   type?: 'fade' | 'slide-x' | 'slide-y';
-}) => <SC_Reveal type={type ?? 'slide-y'}>{message}</SC_Reveal>;
+}) => <SC_Reveal type={type ?? 'slide-y'}>{content}</SC_Reveal>;

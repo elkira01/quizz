@@ -36,9 +36,11 @@ export const SC_Button = styled(HeadlessButton)<ButtonProps>`
   background: var(--background);
   color: var(--text-color);
   border: var(--border);
+  padding: 8px;
 
   &:hover {
     opacity: 0.8;
+    transition: all ease-in-out 300ms;
   }
 
   &[data-headlessui-state='hover active'] {
@@ -57,7 +59,7 @@ export const SC_Button = styled(HeadlessButton)<ButtonProps>`
       }
     }
 
-    animation: 500ms linear alternate click;
+    animation: 500ms ease-in-out alternate click;
   }
 `;
 
@@ -65,7 +67,7 @@ function AppButton(props: ButtonProps) {
   const { children, icon, variant, ...rest } = props;
   return (
     <SC_Button
-      className={cn('', 'rounded-full p-2 text-white', props.className)}
+      className={cn('', 'rounded-full text-white', props.className)}
       variant={variant ?? 'primary'}
       {...rest}
     >

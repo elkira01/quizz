@@ -1,9 +1,9 @@
-import WebsiteLayout from '@/app/(website)/components/layout/WebsiteLayout';
+import LandingLayout from '@/app/(website)/components/layout/LandingLayout';
 
-export default function WebsiteRootLayout({
+export default function WebsiteLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <WebsiteLayout>{children}</WebsiteLayout>;
+  return <LandingLayout>{children}</LandingLayout>;
 }

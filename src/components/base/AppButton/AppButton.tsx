@@ -8,7 +8,6 @@ import { cn } from '@/lib/utils';
 export interface ButtonProps extends HeadlessProps {
   icon?: any;
   variant?: 'outlined' | 'primary' | 'danger' | 'secondary';
-  // type?: 'primary' | 'secondary' | 'danger';
   type?: 'button' | 'reset' | 'submit';
   children?: ReactNode;
 }
